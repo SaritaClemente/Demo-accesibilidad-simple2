@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Demo accesibilidad simple</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body role="main">
+
+
+<!-- TÍTULO -->
+<h1>Demo accesibilidad simple</h1>
+
+<!-- BOTONES -->
+<div class="botones" role="toolbar" aria-label="Controles de accesibilidad">
+    <button id="contrasteBtn" aria-pressed="false">Alto contraste</button>
+    <button id="aumentarBtn">A+</button>
+    <button id="disminuirBtn">A-</button>
+</div>
+
+<!-- TEXTO -->
+<p class="negrita">Bienvenido</p>
+
+<p>
+    Este es un ejemplo básico de cómo aplicar funciones de accesibilidad en una página web:
+</p>
+
+<!-- LISTA -->
+<ul>
+    <li>Roles ARIA</li>
+    <li>Modo de alto contraste</li>
+    <li>Ajuste de tamaño de fuente</li>
+</ul>
+
+<script src="script.js"></script>
+
+
+</body>
+</html>
